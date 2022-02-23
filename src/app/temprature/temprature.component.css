@@ -1,0 +1,45 @@
+.main{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../assets/images/tem.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main h1 {
+    color: #fff;
+}
+
+.content {
+    width: 60%;
+    border: thin solid #000;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 20px 0;
+    background-color: rgb(255 255 255 / 70%);
+}
+
+.content .form-group{
+    margin: 20px auto;
+}
+
+.content .form-group label{
+    width: 100px;
+}
+
+.content .form-group input {
+  padding: 5px 8px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  box-shadow: none;
+  border: thin solid #fff;
+}
+
+.content .form-group span {
+    padding: 6px;
+}
